@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="logo.png" type="image/png">
+  <title>Nonnannafilmgroup | Home</title>
+
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <!-- CSS personalizzato -->
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+<header class="flex items-center justify-between px-6 py-4 shadow-md border-b border-gray-700 bg-gray-900 relative">
+
+  <!-- Logo -->
+  <img src="logo.png" alt="Logo" class="h-12 w-auto">
+
+  <!-- Bottone hamburger (solo mobile) -->
+  <button id="menuBtn" class="text-white text-3xl md:hidden">
+    ☰
+  </button>
+
+  <nav id="menu" class="
+  hidden
+  flex-col
+  absolute
+  top-full
+  right-0
+  bg-gray-900
+  border-t border-gray-700
+  z-50
+  w-48       /* larghezza fissa a destra */
+  md:static md:flex md:flex-row md:w-auto md:border-none
+">
+  <a href="#chi-siamo" class="px-6 py-3 text-white hover:text-gray-300">Chi Siamo</a>
+  <a href="#progetti" class="px-6 py-3 text-white hover:text-gray-300">Cortometraggi</a>
+  <a href="#contatti" class="px-6 py-3 text-white hover:text-gray-300">Contatti</a>
+</nav>
+
+
+</header>
+
+
+
+
+
+  <!-- Hero Section -->
+<section class="hero h-screen relative flex items-center justify-center text-center bg-cover bg-center" 
+         style="background-image: url('copertina.jpg');">
+  
+  <!-- Overlay scuro per contrasto -->
+  <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+
+  <!-- Contenuto centrato -->
+  <div class="relative z-10 p-12 max-w-3xl text-white">
+    <h1 class="text-5xl md:text-6xl font-bold mb-6 drop-shadow-lg">Raccontiamo Storie Attraverso le Immagini</h1>
+    <p class="text-lg md:text-xl mb-8 drop-shadow-md">
+      Produzione indipendente di cortometraggi, video creativi e progetti cinematografici.
+    </p>
+    <a href="#progetti" class="btn-primary hover:scale-105 transform transition duration-300">
+      Scopri i nostri lavori
+    </a>
+  </div>
+</section>
+
+
+
+  <!-- Linea divisoria -->
+  <hr class="border-gray-700 my-1.2">
+
+  <!-- Chi Siamo -->
+  <section id="chi-siamo" class="p-12 text-center">
+    <h2 class="text-4xl font-semibold mb-6">Chi Siamo</h2>
+    <p class="max-w-3xl mx-auto text-lg leading-relaxed">
+      Siamo un gruppo di appassionati filmmaker che realizzano cortometraggi originali, sperimentali e narrativi.
+      Dalla sceneggiatura alla post-produzione, seguiamo ogni fase con professionalità e creatività.
+    </p>
+  </section>
+
+  <!-- Linea divisoria -->
+  <hr class="border-gray-700 my-12">
+
+  <!-- Progetti -->
+  <section id="progetti" class="p-12">
+    <h2 class="text-4xl font-bold text-center mb-12 text-white">
+      I Nostri Cortometraggi</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Card 1 -->
+      <div class="card">
+        <a href="https://www.youtube.com/watch?v=KLfizhf14Fk&t=2174s" target="_blank">
+          <img src="https://img.youtube.com/vi/KLfizhf14Fk/hqdefault.jpg" class="card-img" />
+        </a>
+        <p class="card-title">La maledizione delle Janare</p>
+        <p class="card-subtitle">Clicca per guardarlo direttamente su YouTube.</p>
+        <a href="https://www.youtube.com/watch?v=KLfizhf14Fk&t=2174s" target="_blank" class="btn-secondary">Guarda su YouTube</a>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <a href="https://www.youtube.com/watch?v=OfjEalnrxVs&t=706s" target="_blank">
+          <img src="https://img.youtube.com/vi/OfjEalnrxVs/hqdefault.jpg" class="card-img" />
+        </a>
+        <p class="card-title">Il regalo di Natale</p>
+        <p class="card-subtitle">Clicca per guardarlo direttamente su YouTube.</p>
+        <a href="https://www.youtube.com/watch?v=OfjEalnrxVs&t=706s" target="_blank" class="btn-secondary">Guarda su YouTube</a>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <a href="https://www.youtube.com/watch?v=sqxb-36Kwh8&t=1151s" target="_blank">
+          <img src="https://img.youtube.com/vi/sqxb-36Kwh8/hqdefault.jpg" class="card-img" />
+        </a>
+        <p class="card-title">Oro nel torrente</p>
+        <p class="card-subtitle">Clicca per guardarlo direttamente su YouTube.</p>
+        <a href="https://www.youtube.com/watch?v=sqxb-36Kwh8&t=1151s" target="_blank" class="btn-secondary">Guarda su YouTube</a>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card">
+        <a href="https://www.youtube.com/watch?v=d6qskVqilxw&t=60s" target="_blank">
+          <img src="https://img.youtube.com/vi/d6qskVqilxw/hqdefault.jpg" class="card-img" />
+        </a>
+        <p class="card-title">Il tesoro dei briganti</p>
+        <p class="card-subtitle">Clicca per guardarlo direttamente su YouTube.</p>
+        <a href="https://www.youtube.com/watch?v=d6qskVqilxw&t=60s" target="_blank" class="btn-secondary">Guarda su YouTube</a>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="card">
+        <a href="https://www.youtube.com/watch?v=tANc4UXfxYg&t=2s" target="_blank">
+          <img src="https://img.youtube.com/vi/tANc4UXfxYg/hqdefault.jpg" class="card-img" />
+        </a>
+        <p class="card-title">Il Re dell'Oblio</p>
+        <p class="card-subtitle">Clicca per guardarlo direttamente su YouTube.</p>
+        <a href="https://www.youtube.com/watch?v=tANc4UXfxYg&t=2s" target="_blank" class="btn-secondary">Guarda su YouTube</a>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="card">
+        <a href="https://www.youtube.com/watch?v=N9bdHc8ywJY&t=16s" target="_blank">
+          <img src="https://img.youtube.com/vi/N9bdHc8ywJY/hqdefault.jpg" class="card-img" />
+        </a>
+        <p class="card-title">La magia del Natale</p>
+        <p class="card-subtitle">Clicca per guardarlo direttamente su YouTube.</p>
+        <a href="https://www.youtube.com/watch?v=N9bdHc8ywJY&t=16s" target="_blank" class="btn-secondary">Guarda su YouTube</a>
+      </div>
+
+    </div>
+  </section>
+
+  
+  <!-- Contatti -->
+  <section id="contatti" class="p-12 text-center">
+    <!-- Linea divisoria -->
+  <hr class="border-gray-700 my-12">
+    <h2 class="text-4xl font-semibold mb-6">Contatti</h2>
+    <p class="text-lg mb-6">Vuoi collaborare con noi o proporre un progetto?</p>
+    <a href="mailto:info@cortometraggi.it" class="btn-primary">Scrivici</a>
+  </section>
+
+  
+
+  <!-- Footer -->
+  <footer class="footer">
+    © 2025 Nonnannafilmgroup - Tutti i diritti riservati
+  </footer>
+
+  <script>
+  const menuBtn = document.getElementById("menuBtn");
+  const menu = document.getElementById("menu");
+
+  menuBtn.addEventListener("click", () => {
+    menu.classList.toggle("hidden");
+  });
+</script>
+
+</body>
+</html>
+
+
