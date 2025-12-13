@@ -23,7 +23,7 @@
     ☰
   </button>
 
-  <nav id="menu" class="
+<nav id="menu" class="
   hidden
   flex-col
   absolute
@@ -32,12 +32,12 @@
   bg-gray-900
   border-t border-gray-700
   z-50
-  w-48       /* larghezza fissa a destra */
+  w-56
   md:static md:flex md:flex-row md:w-auto md:border-none
 ">
-  <a href="#chi-siamo" class="px-6 py-3 text-white hover:text-gray-300">Chi Siamo</a>
-  <a href="#progetti" class="px-6 py-3 text-white hover:text-gray-300">Cortometraggi</a>
-  <a href="#contatti" class="px-6 py-3 text-white hover:text-gray-300">Contatti</a>
+  <a href="#chi-siamo" class="px-6 py-4 text-lg md:text-base text-white hover:text-gray-300"></a>Chi Siamo</a>
+  <a href="#progetti" class="px-6 py-4 text-lg md:text-base text-white hover:text-gray-300">Cortometraggi</a>
+  <a href="#contatti" class="px-6 py-4 text-lg md:text-base text-white hover:text-gray-300">Contatti</a>
 </nav>
 
 
@@ -56,8 +56,9 @@
 
   <!-- Contenuto centrato -->
 <div class="relative z-10 p-12 max-w-3xl text-white">
-  <h1 class="text-5xl md:text-6xl font-bold mb-6 drop-shadow-lg">Benvenuti in NonnannaFilmGroup</h1>
-  <p class="text-lg md:text-xl mb-8 drop-shadow-md">
+  <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 drop-shadow-lg">
+    Benvenuti in NonnannaFilmGroup</h1>
+  <p class="text-base sm:text-lg md:text-xl mb-8 drop-shadow-md">
     Dove le emozioni prendono vita. Raccontiamo storie che restano nel cuore attraverso cortometraggi, video creativi e progetti cinematografici indipendenti.
   </p>
   <a href="#progetti" class="btn-primary hover:scale-105 transform transition duration-300">
@@ -74,7 +75,8 @@
 
   <!-- Chi Siamo -->
   <section id="chi-siamo" class="p-12 text-center">
-    <h2 class="text-4xl font-semibold mb-6">Chi Siamo</h2>
+    <section class="px-6 py-10 sm:px-8 sm:py-12 md:p-12">
+      Chi Siamo</h2>
     <p class="max-w-3xl mx-auto text-lg leading-relaxed">
       Siamo un gruppo di appassionati filmmaker che realizzano cortometraggi originali, sperimentali e narrativi.
       Dalla sceneggiatura alla post-produzione, seguiamo ogni fase con professionalità e creatività.
@@ -88,7 +90,7 @@
   <section id="progetti" class="p-12">
     <h2 class="text-4xl font-bold text-center mb-12 text-white">
       I Nostri Cortometraggi</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 min-[380px]:grid-cols-2 lg:grid-cols-3 gap-8">
 
       <!-- Card 1 -->
       <div class="card">
@@ -181,7 +183,7 @@
   
 
   <!-- Footer -->
-  <footer class="footer">
+  <footer class="footer text-sm sm:text-base text-center px-4 py-6">
     © 2025 Nonnannafilmgroup - Tutti i diritti riservati
   </footer>
 
