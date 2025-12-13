@@ -88,11 +88,14 @@
   color: #f87171; /* Tailwind red-400 */
 }
 
-/* Footer */
+/* Footer stile navbar */
 .footer {
+  width: 100%;
+  background-color: #111827; /* bg-gray-900 */
+  color: white;
   text-align: center;
   padding: 1rem 2rem;
-  background-color: #1f2937;
-  border-top: 1px solid #374151;
-  box-shadow: 0 -2px 4px rgba(0,0,0,0.2);
+
+  border-top: 1px solid #374151; /* border-gray-700 */
+  box-shadow: 0 -1px 3px rgba(0,0,0,0.3); /* shadow verso l’alto */
 }
