@@ -54,8 +54,7 @@
 
 
 
-  <!-- Hero Section -->
-<section class="hero h-screen relative flex items-center justify-center text-center bg-cover bg-center" 
+<section class="hero relative flex items-center justify-center text-center w-full h-screen bg-cover bg-center overflow-hidden" 
          style="background-image: url('assets/copertina.jpg');">
   
   <!-- Overlay scuro per contrasto -->
@@ -78,21 +77,21 @@
 
 
   <!-- Linea divisoria -->
-  <hr class="border-gray-700 my-1.2">
+  <hr class="w-full border-gray-700 my-1.2">
 
   <!-- Chi Siamo -->
   <section id="chi-siamo" class="p-12 text-center">
     <section class="px-6 py-10 sm:px-8 sm:py-12 md:p-12">
       <h2 class="text-4xl font-bold text-center mb-12 text-white">
       Chi siamo</h2>
-    <p class="max-w-3xl mx-auto text-lg leading-relaxed">
+    <p class="max-w-3xl mx-auto text-lg leading-relaxed text-gray-300 mb-8">
       Siamo un gruppo di appassionati filmmaker che realizzano cortometraggi originali, sperimentali e narrativi.
       Dalla sceneggiatura alla post-produzione, seguiamo ogni fase con professionalità e creatività.
     </p>
   </section>
 
   <!-- Linea divisoria -->
-  <hr class="border-gray-700 my-1.2">
+  <hr class="border-gray-700 my-1.2 w-full mx-auto">
 
 <!-- Dove Siamo -->
 <section id="dove-siamo" class="p-12 text-center">
@@ -123,106 +122,114 @@
 
 
   <!-- Progetti -->
-  <section id="progetti" class="p-12">
-    <h2 class="text-4xl font-bold text-center mb-12 text-white">
-      I Nostri Cortometraggi</h2>
-    <div class="grid grid-cols-1 min-[380px]:grid-cols-2 lg:grid-cols-3 gap-8">
+  <section id="progetti" class="py-12">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 text-center">
+    <h2 class="text-4xl font-bold mb-12 text-white">
+    Le nostre produzioni
+  </h2>
+  <p class="max-w-3xl mx-auto text-lg leading-relaxed text-gray-300 mb-8">
+    Ogni cortometraggio è un viaggio. Clicca, esplora e vivi le nostre storie.
+  </p>
 
-      <!-- Card 3 -->
-    <div class="card"
-        data-title="Oro nel torrente"
-        data-description="In un piccolo paesino di campagna, Federico trova una pepita e comincia a cercare l'oro, tenendo nascosto il segreto al suo capo, che è un vero despota."
-        data-year="2020"
-        data-duration="22 min"
-        data-link="https://www.youtube.com/watch?v=sqxb-36Kwh8&t=1151s">
 
-      <img src="https://img.youtube.com/vi/sqxb-36Kwh8/hqdefault.jpg"
-          class="card-img"
-          alt="Oro nel torrente">
+  <div class="grid grid-cols-1 min-[380px]:grid-cols-2 lg:grid-cols-3 gap-8">
 
+    <!-- Card 1 -->
+    <div class="card open-modal"
+      data-title="Oro nel torrente"
+      data-description="In un piccolo paesino di campagna, Federico trova una pepita e comincia a cercare l'oro, tenendo nascosto il segreto al suo capo, un vero despota."
+      data-year="2020"
+      data-duration="22 min"
+      data-link="https://www.youtube.com/watch?v=sqxb-36Kwh8&t=1151s">
+
+      <img src="https://img.youtube.com/vi/sqxb-36Kwh8/hqdefault.jpg" class="card-img" alt="Oro nel torrente">
       <p class="card-title">Oro nel torrente</p>
       <p class="card-subtitle">Clicca per info sul film</p>
-
-      <button class="btn-secondary open-modal">Scopri di più</button>
+      <button class="btn-secondary">Scopri di più</button>
     </div>
 
+    <!-- Card 2 -->
+    <div class="card open-modal"
+      data-title="Il regalo di Natale"
+      data-description="Un racconto natalizio che parla di affetti, speranza e piccoli gesti capaci di cambiare tutto."
+      data-year="2019"
+      data-duration="15 min"
+      data-link="https://www.youtube.com/watch?v=OfjEalnrxVs&t=706s">
 
-      <!-- Card 2 -->
-      <div class="card">
-        <a href="https://www.youtube.com/watch?v=OfjEalnrxVs&t=706s" target="_blank">
-          <img src="https://img.youtube.com/vi/OfjEalnrxVs/hqdefault.jpg" class="card-img" />
-        </a>
-        <p class="card-title">Il regalo di Natale</p>
-        <p class="card-subtitle">Clicca per guardarlo direttamente su YouTube.</p>
-        <a href="https://www.youtube.com/watch?v=OfjEalnrxVs&t=706s" target="_blank" class="btn-secondary">Guarda su YouTube</a>
-      </div>
-
-      <!-- Card -->
-<div class="card"
-     data-title="La maledizione delle Janare"
-     data-description="
-     Il cercatore di tesori Gennaro Magellano scopre una mappa nascosta nella torre di Pontelandolfo: 
-     l’ha lasciata Tonino Guerrera, un brigante leggendario sparito nel nulla. Il tracciato lo conduce al ponte delle Janare, tra misteri antichi, culti dimenticati e nemici senza scrupoli. Ma dietro ogni indizio si cela qualcosa di più grande: 
-     un tesoro che nessuno doveva trovare… e una verità che cambierà tutto."
-     data-year="2023"
-     data-duration="60 min"
-     data-link="https://www.youtube.com/watch?v=KLfizhf14Fk&t=2174s">
-
-  <img src="https://img.youtube.com/vi/KLfizhf14Fk/hqdefault.jpg"
-       class="card-img"
-       alt="La maledizione delle Janare">
-
-  <p class="card-title">La maledizione delle Janare</p>
-  <p class="card-subtitle">Clicca per info sul film</p>
-
-  <button class="btn-secondary open-modal">Scopri di più</button>
-</div>
-
-
-      
-
-      
-
-      <!-- Card 4 -->
-      <div class="card">
-        <a href="https://www.youtube.com/watch?v=d6qskVqilxw&t=60s" target="_blank">
-          <img src="https://img.youtube.com/vi/d6qskVqilxw/hqdefault.jpg" class="card-img" />
-        </a>
-        <p class="card-title">Il tesoro dei briganti</p>
-        <p class="card-subtitle">Clicca per guardarlo direttamente su YouTube.</p>
-        <a href="https://www.youtube.com/watch?v=d6qskVqilxw&t=60s" target="_blank" class="btn-secondary">Guarda su YouTube</a>
-      </div>
-
-      <!-- Card 5 -->
-      <div class="card">
-        <a href="https://www.youtube.com/watch?v=tANc4UXfxYg&t=2s" target="_blank">
-          <img src="https://img.youtube.com/vi/tANc4UXfxYg/hqdefault.jpg" class="card-img" />
-        </a>
-        <p class="card-title">Il Re dell'Oblio</p>
-        <p class="card-subtitle">Clicca per guardarlo direttamente su YouTube.</p>
-        <a href="https://www.youtube.com/watch?v=tANc4UXfxYg&t=2s" target="_blank" class="btn-secondary">Guarda su YouTube</a>
-      </div>
-
-      <!-- Card 6 -->
-      <div class="card">
-        <a href="https://www.youtube.com/watch?v=N9bdHc8ywJY&t=16s" target="_blank">
-          <img src="https://img.youtube.com/vi/N9bdHc8ywJY/hqdefault.jpg" class="card-img" />
-        </a>
-        <p class="card-title">La magia del Natale</p>
-        <p class="card-subtitle">Clicca per guardarlo direttamente su YouTube.</p>
-        <a href="https://www.youtube.com/watch?v=N9bdHc8ywJY&t=16s" target="_blank" class="btn-secondary">Guarda su YouTube</a>
-      </div>
-
+      <img src="https://img.youtube.com/vi/OfjEalnrxVs/hqdefault.jpg" class="card-img" alt="Il regalo di Natale">
+      <p class="card-title">Il regalo di Natale</p>
+      <p class="card-subtitle">Clicca per info sul film</p>
+      <button class="btn-secondary">Scopri di più</button>
     </div>
-  </section>
+
+    <!-- Card 3 -->
+    <div class="card open-modal"
+      data-title="C'era una volta a Pontelandolfo"
+      data-description="Negli anni Novanta a Pontelandolfo, crimini e sospetti minano ogni rapporto. Le gerarchie di potere riusciranno a fermare il caos?"
+      data-year="2021"
+      data-duration="25 min"
+      data-link="https://www.youtube.com/watch?v=5etAXiDTRio&t=496s">
+
+      <img src="https://img.youtube.com/vi/5etAXiDTRio/hqdefault.jpg" class="card-img" alt="C'era una volta a Pontelandolfo">
+      <p class="card-title">C'era una volta a Pontelandolfo</p>
+      <p class="card-subtitle">Clicca per info sul film</p>
+      <button class="btn-secondary">Scopri di più</button>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="card open-modal"
+      data-title="La maledizione delle Janare"
+      data-description="Gennaro Magellano scopre una mappa segreta che lo conduce al ponte delle Janare, tra culti antichi, briganti leggendari e una verità proibita."
+      data-year="2023"
+      data-duration="60 min"
+      data-link="https://www.youtube.com/watch?v=KLfizhf14Fk&t=2174s">
+
+      <img src="https://img.youtube.com/vi/KLfizhf14Fk/hqdefault.jpg" class="card-img" alt="La maledizione delle Janare">
+      <p class="card-title">La maledizione delle Janare</p>
+      <p class="card-subtitle">Clicca per info sul film</p>
+      <button class="btn-secondary">Scopri di più</button>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="card open-modal"
+      data-title="Il tesoro dei briganti"
+      data-description="Un'avventura alla ricerca di un tesoro nascosto, tra leggende popolari e tradimenti."
+      data-year="2018"
+      data-duration="18 min"
+      data-link="https://www.youtube.com/watch?v=d6qskVqilxw&t=60s">
+
+      <img src="https://img.youtube.com/vi/d6qskVqilxw/hqdefault.jpg" class="card-img" alt="Il tesoro dei briganti">
+      <p class="card-title">Il tesoro dei briganti</p>
+      <p class="card-subtitle">Clicca per info sul film</p>
+      <button class="btn-secondary">Scopri di più</button>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="card open-modal"
+      data-title="Il Re dell'Oblio"
+      data-description="Un viaggio oscuro nella mente di un uomo che ha perso tutto, anche se stesso."
+      data-year="2022"
+      data-duration="20 min"
+      data-link="https://www.youtube.com/watch?v=tANc4UXfxYg&t=2s">
+
+      <img src="https://img.youtube.com/vi/tANc4UXfxYg/hqdefault.jpg" class="card-img" alt="Il Re dell'Oblio">
+      <p class="card-title">Il Re dell'Oblio</p>
+      <p class="card-subtitle">Clicca per info sul film</p>
+      <button class="btn-secondary">Scopri di più</button>
+    </div>
+
+  </div>
+</section>
+
 
   
   <!-- Linea divisoria -->
   <hr class="border-gray-700 my-12">
 
-    <!-- Prossimamente -->
-  <section id="in-uscita" class="p-12 text-center">
-    <h2 class="text-4xl font-bold text-center mb-12 text-white">
+  <!--In uscita -->
+  <section id="in-uscita" class="py-12">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 text-center">
+    <h2 class="text-4xl font-bold mb-12 text-white">
       Prossimamente su YouTube
     </h2>
 
