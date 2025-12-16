@@ -84,14 +84,6 @@ body {
   margin-bottom: 0.5rem;
 }
 
-/* Navbar */
-.nav-link {
-  position: relative;
-  transition: color 0.3s;
-}
-.nav-link:hover {
-  color: #f87171; /* Tailwind red-400 */
-}
 
 /* Footer stile navbar */
 #footer {
