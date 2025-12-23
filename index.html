@@ -19,7 +19,7 @@
 
   <!-- Logo -->
   <img src="assets/logo.png" alt="Logo" class="h-12">
-
+  
   <!-- Bottone hamburger (solo mobile) -->
   <button id="menu-toggle" class="md:hidden text-white p-2">
     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
@@ -121,61 +121,45 @@
   <!-- Linea divisoria -->
   <hr class="w-full border-gray-700 my-1.2">
 
-<!-- Chi Siamo -->
-<section id="chi-siamo" class="px-6 py-16 md:px-12 text-center bg-[#011e47ff]">
-  <div class="max-w-6xl mx-auto">
+  <section id="chi-siamo" class="bg-primary text-white py-24 px-6 md:px-12">
+  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-14 items-center">
 
-    <!-- Titolo -->
-    <div class="flex flex-col items-center mb-12">
-      <div class="flex items-center gap-3 mb-4">
-        <h2 class="text-4xl md:text-5xl font-extrabold text-white tracking-tight">
-          Chi siamo
-        </h2>
-      </div>
+    <!-- Testo -->
+    <div>
+      <h2 class="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
+        Chi siamo
+      </h2>
 
-      <p class="max-w-3xl text-lg md:text-xl leading-relaxed text-gray-300">
-       Dal 2020 raccontiamo storie e proviamo a regalare emozioni attraverso le immagini.
-       Realizziamo cortometraggi originali e sperimentali, curati in ogni fase, dall’idea alla post-produzione.
+      <p class="text-lg md:text-xl text-gray-300 leading-relaxed">
+        Dal 2020 raccontiamo storie e proviamo a regalare emozioni attraverso le immagini.
+        Realizziamo cortometraggi originali e sperimentali, curati in ogni fase,
+        dall’idea alla post-produzione.
       </p>
     </div>
 
     <!-- Valori -->
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-12">
+    <div class="grid md:grid-cols-3 gap-10">
 
       <!-- Creatività -->
-      <div class="flex flex-col items-center text-center">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-blue-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
-            d="M12 3a6 6 0 00-3 11.197V17a1 1 0 001 1h4a1 1 0 001-1v-2.803A6 6 0 0012 3z" />
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
-            d="M9 21h6" />
-        </svg>
-        <h3 class="text-xl font-semibold text-white mb-2">Creatività</h3>
-        <p class="text-gray-300 text-sm">
+      <div class="border border-white/10 rounded-2xl p-8 hover:border-white/30 transition">
+        <h3 class="text-2xl font-semibold mb-4">Creatività</h3>
+        <p class="text-gray-300 leading-relaxed">
           Sperimentiamo linguaggi e forme per raccontare storie uniche.
         </p>
       </div>
 
       <!-- Processo -->
-      <div class="flex flex-col items-center text-center">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-blue-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
-            d="M9 17v-2a4 4 0 014-4h4M7 7h.01M3 7h.01M5 7h.01" />
-        </svg>
-        <h3 class="text-xl font-semibold text-white mb-2">Processo</h3>
-        <p class="text-gray-300 text-sm">
+      <div class="border border-white/10 rounded-2xl p-8 hover:border-white/30 transition">
+        <h3 class="text-2xl font-semibold mb-4">Processo</h3>
+        <p class="text-gray-300 leading-relaxed">
           Dalla sceneggiatura al montaggio, seguiamo ogni fase del progetto.
         </p>
       </div>
 
       <!-- Passione -->
-      <div class="flex flex-col items-center text-center">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-blue-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
-            d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.636l1.318-1.318a4.5 4.5 0 116.364 6.364L12 21.364 4.318 12.682a4.5 4.5 0 010-6.364z" />
-        </svg>
-        <h3 class="text-xl font-semibold text-white mb-2">Passione</h3>
-        <p class="text-gray-300 text-sm">
+      <div class="border border-white/10 rounded-2xl p-8 hover:border-white/30 transition">
+        <h3 class="text-2xl font-semibold mb-4">Passione</h3>
+        <p class="text-gray-300 leading-relaxed">
           Il cinema è il nostro linguaggio e il nostro motore creativo.
         </p>
       </div>
@@ -186,90 +170,70 @@
 </section>
 
 
+
   <!-- Linea divisoria -->
   <hr class="border-gray-700 my-1.2 w-full mx-auto">
 
-<!-- Dove Siamo -->
-<section id="riprese" class="px-6 py-16 md:px-12 text-center bg-[#011e47ff]">
-  <div class="max-w-6xl mx-auto">
+  <section id="riprese" class="bg-primary text-white py-24 px-6 md:px-12">
+  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-14 items-center">
 
-    <!-- Titolo -->
-    <div class="flex flex-col items-center mb-12">
-      <div class="flex items-center gap-3 mb-4">
-        <h2 class="text-4xl md:text-5xl font-extrabold text-white tracking-tight">
-          Le riprese
-        </h2>
-      </div>
+    <!-- Testo -->
+    <div>
+      <h2 class="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
+        Dove nascono le immagini
+      </h2>
 
-      <p class="max-w-3xl text-lg md:text-xl leading-relaxed text-gray-300">
-        Le nostre riprese prendono vita tra le suggestive vie storiche di
-        <span class="text-white font-semibold">Pontelandolfo</span>, dove ogni
-        scorcio diventa racconto. Un viaggio visivo tra piazze senza tempo,
-        architetture autentiche e dettagli che custodiscono memoria e identità.
+      <p class="text-gray-300 text-lg leading-relaxed mb-6">
+        Ogni ripresa prende forma camminando lentamente tra le strade di
+        <span class="text-white font-semibold">Pontelandolfo</span>.
+        La luce naturale, i silenzi e i dettagli diventano parte del racconto.
       </p>
+
+      <p class="text-gray-400 text-base leading-relaxed mb-8">
+        Non è solo una location, ma un luogo che guida la narrazione,
+        suggerisce emozioni e imprime autenticità a ogni scena.
+      </p>
+
+      <a
+        href="#cortometraggi"
+        class="inline-block px-7 py-3 rounded-full bg-blue-500 hover:bg-blue-600 transition font-semibold"
+      >
+        Scopri il progetto
+      </a>
     </div>
 
-    <!-- Info con icone -->
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-12">
-
-      <!-- Location -->
-      <div class="flex flex-col items-center text-center">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-blue-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
-            d="M12 11c1.657 0 3-1.343 3-3S13.657 5 12 5s-3 1.343-3 3 1.343 3 3 3z" />
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
-            d="M12 21s6-5.686 6-10a6 6 0 10-12 0c0 4.314 6 10 6 10z" />
-        </svg>
-        <h3 class="text-xl font-semibold text-white mb-2">Location</h3>
-        <p class="text-gray-300 text-sm">
-          Pontelandolfo, tra vicoli storici e panorami autentici.
-        </p>
-      </div>
-
-      <!-- Atmosfera -->
-      <div class="flex flex-col items-center text-center">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-blue-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
-            d="M12 3v2m6.364.636l-1.414 1.414M21 12h-2M18.364 18.364l-1.414-1.414M12 19v2M5.636 18.364l1.414-1.414M3 12h2M5.636 5.636l1.414 1.414" />
-        </svg>
-        <h3 class="text-xl font-semibold text-white mb-2">Atmosfera</h3>
-        <p class="text-gray-300 text-sm">
-          Luci naturali e ambientazioni suggestive.
-        </p>
-      </div>
-
-      <!-- Narrazione -->
-      <div class="flex flex-col items-center text-center">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-blue-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
-            d="M8 10h.01M12 10h.01M16 10h.01M9 16h6M21 12c0 4.418-4.03 8-9 8a9.77 9.77 0 01-4-.8L3 20l1.8-3.6A7.89 7.89 0 013 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-        </svg>
-        <h3 class="text-xl font-semibold text-white mb-2">Narrazione</h3>
-        <p class="text-gray-300 text-sm">
-          Ogni ripresa racconta una storia autentica.
-        </p>
-      </div>
-
+    <!-- Immagini -->
+    <div class="grid grid-cols-1 gap-2">
+      <img
+        src="assets/pontelandolfo1.jpg"
+        alt="Pontelandolfo scorcio"
+        class="rounded-2xl object-cover h-80 w-full"
+      />
     </div>
 
   </div>
 </section>
 
+
   <!-- Linea divisoria -->
   <hr class="border-gray-700 my-12">
 
-  <!-- Cortometraggi -->
-  <section id="cortometraggi" class="py-12">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 text-center">
-    <h2 class="text-4xl font-bold mb-12 text-white">
-    Le nostre produzioni
-  </h2>
-  <p class="max-w-3xl mx-auto text-lg leading-relaxed text-gray-300 mb-8">
-    Ogni cortometraggio è un viaggio. Clicca, esplora e vivi le nostre storie.
-  </p>
+  <section id="cortometraggi" class="bg-primary text-white py-18 px-6 md:px-12">
+  <div class="max-w-7xl mx-auto">
 
+    <!-- Intro -->
+    <div class="max-w-4xl mb-20">
+      <h2 class="text-4xl md:text-5xl font-extrabold mb-6">
+        Le nostre produzioni
+      </h2>
 
-  <div class="grid grid-cols-1 min-[380px]:grid-cols-2 lg:grid-cols-3 gap-8">
+      <p class="text-lg md:text-xl leading-relaxed text-gray-300">
+        Ogni cortometraggio è un viaggio. Clicca, esplora e vivi le nostre storie.
+      </p>
+    </div>
+
+    <!-- Griglia cortometraggi -->
+    <div class="grid grid-cols-1 min-[380px]:grid-cols-2 lg:grid-cols-3 gap-10">
 
     <!-- Card 1 -->
     <div class="card"
@@ -448,22 +412,25 @@
   <hr class="border-gray-700 my-12">
 
   <!--In uscita -->
-  <section id="in-uscita" class="py-12">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 text-center">
-    <h2 class="text-4xl font-bold mb-12 text-white">
-      Prossimamente su YouTube
-    </h2>
+  <section id="in-uscita" class="bg-primary text-white py-24 px-6 md:px-12">
+  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-14 items-center">
+
+    <!-- Testo -->
+    <div>
+      <h2 class="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
+        Prossimamente in uscita
+      </h2>
 
     <p class="max-w-3xl mx-auto text-lg leading-relaxed text-gray-300 mb-6">
       Preparati a vivere nuove emozioni con le nostre prossime uscite!  
     </p>
 
     <p class="max-w-3xl mx-auto text-lg leading-relaxed text-gray-300 mb-2">
-    Tra le anticipazioni:  
-      <strong>Albero di Natale</strong>, un corto che prende forma tra luci e ombre, pronto a catturare lo sguardo e l’immaginazione.
+    Tra le prossime uscite:
+    <strong>Albero di Natale</strong>, 
+    un cortometraggio natalizio attualmente in fase
+    di realizzazione e in arrivo prossimamente.
     </p>
-
-
     <!-- Bottone opzionale -->
     <a href="https://www.youtube.com/@nonnannafilmgroup1522" target="_blank"
        class="inline-block mt-4 px-6 py-3 bg-red-600 text-white font-semibold rounded-lg hover:bg-red-700 transition">
@@ -477,13 +444,21 @@
 <!-- Linea divisoria -->
   <hr class="border-gray-700 my-12">
   <!-- Contatti -->
-<section id="contatti" class="p-12 text-center">
-  
-  <h2 class="text-4xl font-semibold mb-6">Contatti</h2>
-  <p class="text-lg mb-8">Vuoi collaborare con noi o proporre un progetto?</p>
+
+  <section id="in-uscita" class="bg-primary text-white py-20 px-6 md:px-12">
+  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-14 items-center">
+
+    <!-- Testo -->
+    <div>
+      <h2 class="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
+        Contatti
+      </h2>
+  <p class="text-lg mb-8">
+    Vuoi collaborare con noi o proporre un progetto?
+  </p>
   
   <!-- Icone contatto -->
-  <div class="flex justify-center gap-6 text-white text-2xl">
+  <div class="flex  gap-6 text-white text-2xl">
     <!-- Facebook -->
     <a href="https://www.facebook.com/nonnannafilm" target="_blank" class="hover:text-blue-500 transition">
       <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="currentColor" viewBox="0 0 24 24" stroke="none">
